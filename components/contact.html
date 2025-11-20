@@ -1,0 +1,87 @@
+<section id="contacto" class="contacto section-padding">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Contáctame</span>
+            <h2 class="section-title">Contacto</h2>
+            <div class="title-underline"></div>
+            <p class="section-subtitle">¿Tienes un proyecto en mente? Hablemos</p>
+        </div>
+        <div class="contacto-content">
+            <div class="contacto-info">
+                <div class="info-card">
+                    <h3>Información de Contacto</h3>
+                    <p>Estoy disponible para proyectos y oportunidades. No dudes en contactarme.</p>
+                </div>
+                <div class="contacto-item">
+                    <div class="contacto-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contacto-details">
+                        <h4>Email</h4>
+                        <a href="mailto:alvarocotes.jc@gmail.com">alvarocotes.jc@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contacto-item">
+                    <div class="contacto-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contacto-details">
+                        <h4>Teléfono</h4>
+                        <a href="tel:+573002048198">+57 300 204 8198</a>
+                    </div>
+                </div>
+                <div class="contacto-item">
+                    <div class="contacto-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contacto-details">
+                        <h4>Ubicación</h4>
+                        <p>Colombia</p>
+                    </div>
+                </div>
+                <div class="contacto-social">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+            <form class="contacto-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">
+                            <i class="fas fa-user"></i> Nombre
+                        </label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">
+                            <i class="fas fa-envelope"></i> Email
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="asunto">
+                        <i class="fas fa-tag"></i> Asunto
+                    </label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">
+                        <i class="fas fa-comment"></i> Mensaje
+                    </label>
+                    <textarea id="mensaje" name="mensaje" rows="6" placeholder="Tu mensaje..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">
+                    <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                </button>
+                <div id="formMessage" class="form-message"></div>
+            </form>
+        </div>
+    </div>
+</section>
